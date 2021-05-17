@@ -1,0 +1,24 @@
+---
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: custom-ingress-path
+  namespace: fire
+  labels:
+    plugin: 'true'
+    widget: 'true'
+    bundle-type: standard-bundle
+spec:
+  details:
+    name: custom-ingress-path-bundle
+    description: This is the jhipster bundle
+    dist-tags:
+      latest: v0.0.1
+    versions:
+      - v0.0.1
+  tags:
+    - version: v0.0.1
+      shasum: 031834564b33344effc202e3d6c6b0ceae2ae5ba
+      integrity: 031834564b33344effc202e3d6c6b0ceae2ae5ba
+      tarball: 'https://github.com/firegloves-bundles/custom-ingress-path.git'
+
